@@ -94,7 +94,11 @@ const resume = () => {
               <b>Site administration based on CMS OpenCart: </b>
               Filling the site with content, SEO promotion, improving site
               design using HTML/CSS, working with plugins, working with site
+<<<<<<< HEAD
               files on the company&#39;s corporate server.
+=======
+              files on the company's corporate server.
+>>>>>>> FirstDeploy
             </li>
             <li>
               <b>Site administration based on CMS PrestaShop: </b>

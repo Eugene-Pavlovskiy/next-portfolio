@@ -85,6 +85,7 @@ return (
 
 ```
 
+<<<<<<< HEAD
 ## Add Image optimisation
 `npm add sharp`
 
@@ -103,6 +104,8 @@ In Pages/Build and deployment/Source choose GitHub Actions. Go to nextjs and com
 
 
 
+=======
+>>>>>>> FirstDeploy
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the
