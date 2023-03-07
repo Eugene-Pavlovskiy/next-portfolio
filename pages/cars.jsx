@@ -4,7 +4,7 @@ import bmwImg from '../public/assets/projects/bmwImg.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const bmw = () => (
+const cars = () => (
   <div className="w-full">
     <div className="w-screen h-[50vh] relative">
       <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
@@ -13,10 +13,11 @@ const bmw = () => (
         layout="fill"
         objectFit="cover"
         src={bmwImg}
-        alt="/" />
+        alt="/"
+      />
       <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-        <h2 className="py-2">BMW App</h2>
-        <h3>React JS / Tailwind /</h3>
+        <h2 className="py-2">Cars App</h2>
+        <h3>Next JS / Tailwind /</h3>
       </div>
     </div>
 
@@ -37,14 +38,14 @@ const bmw = () => (
       package. This application was built using the Coin Gecko API. */}
         </p>
         <a
-          href="https://github.com/Eugene-Pavlovskiy/bmw"
+          href="https://github.com/Eugene-Pavlovskiy/next-bmw-app"
           target="_blank"
           rel="noreferrer"
         >
           <button className="px-8 py-2 mt-4 mr-8">Code</button>
         </a>
         <a
-          href="https://bmw-app-vanilla-js.netlify.app/"
+          href="https://next-bmw-app.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
@@ -64,15 +65,15 @@ const bmw = () => (
             <p className="text-gray-600 py-2 flex items-center">
               <RiRadioButtonFill className="pr-1" /> Javascript
             </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="pr-1" /> Routes
+            </p>
             {/* <p className="text-gray-600 py-2 flex items-center">
               <RiRadioButtonFill className="pr-1" /> Firebase
             </p>
             <p className="text-gray-600 py-2 flex items-center">
               <RiRadioButtonFill className="pr-1" /> Coin Gecko API
-            </p>
-            <p className="text-gray-600 py-2 flex items-center">
-              <RiRadioButtonFill className="pr-1" /> Routes
-            </p> */}
+            </p>*/}
           </div>
         </div>
       </div>
@@ -83,4 +84,4 @@ const bmw = () => (
   </div>
 );
 
-export default bmw;
+export default cars;

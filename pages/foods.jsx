@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import bmwImg from '../public/assets/projects/bmwImg.png';
+import foodsImg from '../public/assets/projects/foods_main.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const bmw = () => (
+const foods = () => (
   <div className="w-full">
     <div className="w-screen h-[50vh] relative">
       <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
@@ -12,11 +12,12 @@ const bmw = () => (
         className="absolute z-1"
         layout="fill"
         objectFit="cover"
-        src={bmwImg}
-        alt="/" />
+        src={foodsImg}
+        alt="/"
+      />
       <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-        <h2 className="py-2">BMW App</h2>
-        <h3>React JS / Tailwind /</h3>
+        <h2 className="py-2">Foods App</h2>
+        <h3>Next JS / Tailwind /</h3>
       </div>
     </div>
 
@@ -25,7 +26,7 @@ const bmw = () => (
         <p>Project</p>
         <h2>Overview</h2>
         <p>
-          I created this app to pick up cars.
+          I created this app to orders the foods.
           {/* I built this app to demonstrate knowledge working in React JS and
       accessing API endpoints. This app was built using React JS and is
       hosted on Firebase. This application supports user authentication
@@ -37,14 +38,14 @@ const bmw = () => (
       package. This application was built using the Coin Gecko API. */}
         </p>
         <a
-          href="https://github.com/Eugene-Pavlovskiy/bmw"
+          href="https://github.com/Eugene-Pavlovskiy/next-foodshop-app"
           target="_blank"
           rel="noreferrer"
         >
           <button className="px-8 py-2 mt-4 mr-8">Code</button>
         </a>
         <a
-          href="https://bmw-app-vanilla-js.netlify.app/"
+          href="https://next-foodshop-app.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
@@ -64,15 +65,15 @@ const bmw = () => (
             <p className="text-gray-600 py-2 flex items-center">
               <RiRadioButtonFill className="pr-1" /> Javascript
             </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="pr-1" /> Routes
+            </p>
             {/* <p className="text-gray-600 py-2 flex items-center">
               <RiRadioButtonFill className="pr-1" /> Firebase
             </p>
             <p className="text-gray-600 py-2 flex items-center">
               <RiRadioButtonFill className="pr-1" /> Coin Gecko API
-            </p>
-            <p className="text-gray-600 py-2 flex items-center">
-              <RiRadioButtonFill className="pr-1" /> Routes
-            </p> */}
+            </p>*/}
           </div>
         </div>
       </div>
@@ -83,4 +84,4 @@ const bmw = () => (
   </div>
 );
 
-export default bmw;
+export default foods;

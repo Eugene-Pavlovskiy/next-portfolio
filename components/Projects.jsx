@@ -5,6 +5,8 @@ import petscareImg from '../public/assets/projects/petscare.png';
 import bmwImg from '../public/assets/projects/bmwImg.png';
 import Dashboard from '../public/assets/projects/dashboard.png';
 import twitchImg from '../public/assets/projects/twitch.png';
+import carImg from '../public/assets/projects/cars_main.png';
+import foodsImg from '../public/assets/projects/foods_main.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -27,6 +29,18 @@ const Projects = () => {
             backgroundImg={bmwImg}
             projectUrl="/bmw"
             tech="React JS"
+          />
+          <ProjectItem
+            title="Cars App"
+            backgroundImg={carImg}
+            projectUrl="/cars"
+            tech="Next JS"
+          />
+          <ProjectItem
+            title="Foods App"
+            backgroundImg={foodsImg}
+            projectUrl="/foods"
+            tech="Next JS"
           />
           <ProjectItem
             title="Dashboard App"
