@@ -85,13 +85,9 @@ return (
 
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Add Image optimisation
 `npm add sharp`
 
-=======
->>>>>>> add cars and foods pages
 # Deploy app to Github Pages with CICD
 ```bash
 git init
