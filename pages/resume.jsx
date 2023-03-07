@@ -9,7 +9,7 @@ const resume = () => {
         <title>Eugen | Resume</title>
         <meta
           name="description"
-          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+          content="I am a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
         <link rel="icon" href="/fav.png" />
       </Head>
@@ -94,11 +94,7 @@ const resume = () => {
               <b>Site administration based on CMS OpenCart: </b>
               Filling the site with content, SEO promotion, improving site
               design using HTML/CSS, working with plugins, working with site
-<<<<<<< HEAD
               files on the company&#39;s corporate server.
-=======
-              files on the company's corporate server.
->>>>>>> FirstDeploy
             </li>
             <li>
               <b>Site administration based on CMS PrestaShop: </b>
